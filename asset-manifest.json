@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Adventure-Tours-Car-Hire/static/css/main.073c9b0a.css",
+    "main.js": "/Adventure-Tours-Car-Hire/static/js/main.7cdc7272.js",
+    "static/js/787.4fd5921a.chunk.js": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js",
+    "static/media/logo.svg": "/Adventure-Tours-Car-Hire/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/Adventure-Tours-Car-Hire/index.html",
+    "main.073c9b0a.css.map": "/Adventure-Tours-Car-Hire/static/css/main.073c9b0a.css.map",
+    "main.7cdc7272.js.map": "/Adventure-Tours-Car-Hire/static/js/main.7cdc7272.js.map",
+    "787.4fd5921a.chunk.js.map": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7cdc7272.js"
+  ]
+}
