@@ -1,29 +1,26 @@
 import React, { useEffect, useState } from 'react';
+import { v4 as uuidv4 } from 'uuid';
 import CarCard from './CarCard';
 
-function CompareCars() {
-  const [cars, setCars]=useState()
-  useEffect(()=>{
-    fetchCars();
-  },[])
+function CompareCars({ cars }) {
+  const [showCars, setShowCars] = useState(null);
 
-  async function fetchCars() {
-    try {
-      const response = await fetch('http://localhost:4200/vehicles');
-      const data = await response.json();
-      setCars(data.vehicles);
-    } catch (error) {
-      console.log('Error fetching cars:', error);
+  useEffect(() => {
+    if (cars) {
+      const renderedCars = cars.map((car) => (
+        <CarCard key={uuidv4()} vehicle={car} />
+      ));
+      setShowCars(renderedCars);
+    } else {
+      setShowCars(
+        <div>
+          <h3>Vehicles Loading...</h3>
+        </div>
+      );
     }
-  }
+  }, [cars]);
 
-  return (
-    <div>
-      {cars.map((car, index) => (
-        <CarCard key={index} vehicle={car} />
-      ))}
-    </div>
-  )
+  return <div>{showCars}</div>;
 }
 
 export default CompareCars;
