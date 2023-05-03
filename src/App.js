@@ -1,5 +1,6 @@
 import './App.css';
 import React, { useEffect, useState } from 'react';
+import { BrowserRouter as Router, NavLink, Route, Routes } from 'react-router-dom';
 import CarOwners from './Components/CarOwners';
 import CompareCars from './Components/CompareCars';
 
@@ -19,17 +20,21 @@ function App() {
       console.log('Error fetching cars:', error);
     }
   }
-  console.log(cars);
 
   return (
-    <div className="App">
-      <header>ADVENTURE TOURS CAR HIRE</header>
-      <p>CAR OWNER DETAILS</p>
-
-      <CarOwners />
-      <CompareCars cars={cars} />
-    </div>
+    <Router>
+      <div className="App">
+        <h1>ADVENTURE TOURS CAR HIRE</h1>
+        <nav>
+          <NavLink to="/compare-cars" activeClassName="active"><h2>Find your Ride</h2></NavLink>
+          <NavLink to="/car-owners" activeClassName="active"><h2>Add your Ride</h2></NavLink>
+        </nav>
+        <Routes>
+          <Route path="/car-owners" element={<CarOwners />} />
+          <Route path="/compare-cars" element={<CompareCars cars={cars} />} />
+        </Routes>
+      </div>
+    </Router>
   );
 }
-
 export default App;
