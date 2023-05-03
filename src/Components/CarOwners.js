@@ -46,7 +46,7 @@ function CarOwners(props) {
   const listOfSubmissions = submittedData.map((data, index) => {
     return (
       <div key={index}>
-        {data.fullNames} {data.ownerAddress} {data.ownerAddress} {data.phoneNumber} {data.vehicleModel} {data.identificationNumber}
+        {data.fullNames}   {data.ownerAddress}   {data.ownerAddress} {data.phoneNumber} {data.vehicleModel} {data.identificationNumber}
       </div>
     );
   });
@@ -54,11 +54,11 @@ function CarOwners(props) {
   return (
     <div>
     <form onSubmit={handleSubmit}>
-      <input type="text" onChange={handleFullNamesChange} value={fullNames} />
-      <input type="text" onChange={handleOwnerAddress} value={ownerAddress} />
-      <input type="number" onChange={handlePhoneNumbers} value={phoneNumber} />
-      <input type="text" onChange={handleVehicleModel} value={vehicleModel} />
-      <input type="text" onChange={handleIdentificationNumber} value={identificationNumber} />
+      <input type="text" onChange={handleFullNamesChange} value={fullNames} name="fullNames" placeholder="Full Name" />
+      <input type="text" onChange={handleOwnerAddress} value={ownerAddress} name="ownerAddress" placeholder="Address" />
+      <input type="number" onChange={handlePhoneNumbers} value={phoneNumber} name="phoneNumber" placeholder="Phone number" />
+      <input type="text" onChange={handleVehicleModel} value={vehicleModel} name="vehicleModel" placeholder="Vehicle model" />
+      <input type="text" onChange={handleIdentificationNumber} value={identificationNumber} name="identificationNumber" placeholder="Number Plate" />
       <button type="submit">Submit</button>
     </form>
     {/* conditionally render error messages */}
@@ -68,7 +68,8 @@ function CarOwners(props) {
             {error}
           </p>
         ))
-      : null}
+      : null
+      }
       <h3>Submissions</h3>
     {listOfSubmissions}
   </div>
