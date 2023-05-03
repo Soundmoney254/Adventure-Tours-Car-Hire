@@ -1,6 +1,7 @@
 import './App.css';
 import React from'react';
 import CarOwners from './Components/CarOwners';
+import BookingDetails from './Components/BookingDetails';
 
 function App() {
   return (
@@ -9,6 +10,7 @@ function App() {
       <p>CAR OWNER DETAILS</p>
       
       <CarOwners />
+      <BookingDetails />
     </div>
   );
 }
