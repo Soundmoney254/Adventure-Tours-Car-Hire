@@ -1,23 +1,14 @@
-import logo from './logo.svg';
 import './App.css';
+import React from'react';
+import CarOwners from './Components/CarOwners';
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+      <header> ADVENTURE TOURS CAR HIRE </header>
+      <p>CAR OWNER DETAILS</p>
+      
+      <CarOwners />
     </div>
   );
 }
