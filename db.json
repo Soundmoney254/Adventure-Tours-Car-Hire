@@ -1,0 +1,118 @@
+{
+  "vehicles": [
+    {
+      "model": "Nissan",
+      "capacity": 7,
+      "photos": [
+        "https://i0.wp.com/biznakenya.com/wp-content/uploads/2021/08/Vehicle-Kenya-5.jpg",
+        "https://www.shutterstock.com/image-photo/masai-mara-kenya-september-2021-260nw-2049287651.jpg",
+        "https://www.africansafaris.co.nz/wp-content/uploads/Vehicle-Namibia-6.jpg"
+      ],
+      "dailyPrice": 20000,
+      "owner": {
+        "name": "Ole Sereni",
+        "phone": "+254713087979"
+      },
+      "vehicleFeedback": [
+        "Very good car",
+        "we had a wonderful trip",
+        "The rough-road king!"
+      ]
+    },
+    {
+      "model": "Nissan",
+      "capacity": 7,
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg",
+        "https://example.com/photo3.jpg"
+      ],
+      "dailyPrice": 20000,
+      "owner": {
+        "name": "Owner 2",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Great vehicle",
+        "Smooth ride",
+        "Highly recommended"
+      ]
+    },
+    {
+      "model": "Vehicle 2",
+      "capacity": 3,
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg",
+        "https://example.com/photo3.jpg"
+      ],
+      "dailyPrice": 158963,
+      "owner": {
+        "name": "Owner 3",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Great vehicle",
+        "Smooth ride",
+        "Highly recommended"
+      ]
+    },
+    {
+      "model": "Vehicle 3",
+      "capacity": 5,
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg",
+        "https://example.com/photo3.jpg"
+      ],
+      "dailyPrice": 11730,
+      "owner": {
+        "name": "Owner 4",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Great vehicle",
+        "Smooth ride",
+        "Highly recommended"
+      ]
+    },
+    {
+      "model": "Vehicle 4",
+      "capacity": 7,
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg",
+        "https://example.com/photo3.jpg"
+      ],
+      "dailyPrice": 197613,
+      "owner": {
+        "name": "Owner 5",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Great vehicle",
+        "Smooth ride",
+        "Highly recommended"
+      ]
+    },
+    {
+      "model": "Vehicle 5",
+      "capacity": 7,
+      "photos": [
+        "https://example.com/photo1.jpg",
+        "https://example.com/photo2.jpg",
+        "https://example.com/photo3.jpg"
+      ],
+      "dailyPrice": 81644,
+      "owner": {
+        "name": "Owner 6",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Great vehicle",
+        "Smooth ride",
+        "Highly recommended"
+      ]
+    }
+    ]
+}
