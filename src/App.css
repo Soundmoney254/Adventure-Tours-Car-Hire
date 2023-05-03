@@ -1,21 +1,46 @@
-#root{
+#root {
   margin-left: 5%;
   margin-right: 5%;
 }
 
-.carCard{
-  margin: 10px;
+.carCardContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.carCard {
   width: 42%;
+  margin-bottom: 20px;
   border: solid gray;
   border-radius: 6px;
   padding: 5px;
   text-align: left;
   background-color: whitesmoke;
-  border-radius: 6px;
-  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   text-align: left;
 }
-.carCardImage{
-  width: auto;
+
+.carCardImage {
+  width: 100%;
   height: auto;
+}
+
+nav {
+  height: 100px;
+  background-color: antiquewhite;
+  display: flex;
+  justify-content: center;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+h2 {
+  margin: 0 10px;
+}
+
+input{
+  margin: 5px;
 }

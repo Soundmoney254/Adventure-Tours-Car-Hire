@@ -15,6 +15,7 @@ function CarCard({ vehicle }) {
     };
 
     return (
+        <div className="carCardContainer">
         <div className="carCard">
             <div className="carCardImages">
                 <img
@@ -39,6 +40,7 @@ function CarCard({ vehicle }) {
                     <p key={index}>{feedback}</p>
                 ))}
             </div>
+        </div>
         </div>
     );
 }
