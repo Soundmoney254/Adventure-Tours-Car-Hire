@@ -1,12 +1,12 @@
 {
   "vehicles": [
     {
-      "model": "Nissan",
+      "model": "Toyota Land Cruiser",
       "capacity": 7,
       "photos": [
-        "https://i0.wp.com/biznakenya.com/wp-content/uploads/2021/08/Vehicle-Kenya-5.jpg",
-        "https://www.shutterstock.com/image-photo/masai-mara-kenya-september-2021-260nw-2049287651.jpg",
-        "https://www.africansafaris.co.nz/wp-content/uploads/Vehicle-Namibia-6.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKV9icO-EdR288kc3_K3RE3lCW14_HOYFgYQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJsvaGj7SCabfqCiFvE21VKQARz9VmN0bO73QdfNcXTO773OUAevORJt2IkhxnzdqVV34&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI9NKMlaAmuMRBCGFi_aWUTAxFoYBZbD4YsfH7xOndWtIoRoQFMeuupWvATScTiPHTLKU&usqp=CAU"
       ],
       "dailyPrice": 20000,
       "owner": {
@@ -14,18 +14,18 @@
         "phone": "+254713087979"
       },
       "vehicleFeedback": [
-        "Very good car",
-        "we had a wonderful trip",
-        "The rough-road king!"
+        "Excellent vehicle for off-roading!",
+        "Spacious and comfortable for long trips.",
+        "Handled the rough terrains like a champ."
       ]
     },
     {
-      "model": "Nissan",
-      "capacity": 7,
+      "model": "Land Rover Defender ",
+      "capacity": 5,
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg",
-        "https://example.com/photo3.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjxZ2rGIDDSVbWxGkof0T16dB9oUeGk6GCA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvwgQI5518SmR9XU0C5XliMLaaZWrmzdIUqw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-LzedvoGssB_IKM8_YhpCR3ZwYTIPcOYGA&usqp=CAU"
       ],
       "dailyPrice": 20000,
       "owner": {
@@ -33,18 +33,18 @@
         "phone": "+123456789"
       },
       "vehicleFeedback": [
-        "Great vehicle",
-        "Smooth ride",
-        "Highly recommended"
+        "A rugged and reliable companion.",
+        "Impressive off-road capabilities.",
+        "Sleek design and comfortable seating."
       ]
     },
     {
-      "model": "Vehicle 2",
-      "capacity": 3,
+      "model": "Jeep Wrangler",
+      "capacity": 4,
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg",
-        "https://example.com/photo3.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_HPjBgjgjSxRjfDkDweE-7ZSfH243tXbXw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzN7qoBLAtcfr5qT5FuQC5fZ9XZIwxke5Qw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZ5VzmCsvl9bEg5JPc5koQesfH-jK0olWYA&usqp=CAU"
       ],
       "dailyPrice": 158963,
       "owner": {
@@ -52,18 +52,18 @@
         "phone": "+123456789"
       },
       "vehicleFeedback": [
-        "Great vehicle",
-        "Smooth ride",
-        "Highly recommended"
+        "An iconic vehicle for adventurous trips.",
+        "Loved driving with the top down!",
+        "Perfect for exploring off-the-beaten-path destinations."
       ]
     },
     {
-      "model": "Vehicle 3",
-      "capacity": 5,
+      "model": "Ford Explorer",
+      "capacity": 7,
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg",
-        "https://example.com/photo3.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-umChWvV1iwaqfQB78DK1eyoR9ubWRB3Bg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxMRHtcLPLhebjhk6JfdJOuh9Mc0zumYU6g&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYpPKn12mply7DtKvJfCPNRH3_xUKWp76Ug&usqp=CAU"
       ],
       "dailyPrice": 11730,
       "owner": {
@@ -71,18 +71,18 @@
         "phone": "+123456789"
       },
       "vehicleFeedback": [
-        "Great vehicle",
-        "Smooth ride",
-        "Highly recommended"
+        "Great family SUV with ample space.",
+        "Smooth and comfortable ride.",
+        "Advanced safety features for peace of mind."
       ]
     },
     {
-      "model": "Vehicle 4",
-      "capacity": 7,
+      "model": "Nissan Patrol",
+      "capacity": 8,
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg",
-        "https://example.com/photo3.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIQBK-44OZQFpICGGw7n-LXLa9TSSq08_Lmg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHQLTCILLFD8QkRmehLtRUo1jvfsLZXY-vg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCLJHwZpy7dYHnnVa45Ya0Ufd2jPQWg3qgw&usqp=CAU"
       ],
       "dailyPrice": 197613,
       "owner": {
@@ -90,18 +90,18 @@
         "phone": "+123456789"
       },
       "vehicleFeedback": [
-        "Great vehicle",
-        "Smooth ride",
-        "Highly recommended"
+        "Powerful engine and excellent towing capacity.",
+        "Luxurious interior with high-tech amenities.",
+        "A reliable companion for long journeys."
       ]
     },
     {
-      "model": "Vehicle 5",
-      "capacity": 7,
+      "model": "Mercedes-Benz G-Class",
+      "capacity": 5,
       "photos": [
-        "https://example.com/photo1.jpg",
-        "https://example.com/photo2.jpg",
-        "https://example.com/photo3.jpg"
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS84NMLHVAIXpUv3sYmQr02NPKyPRuqemMtXw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZoGbKy8pMR_qSEu6pPoKQGYfF5heXxShZw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPWfeKny686W97RAovBvXebGQAi3NxprPA7A&usqp=CAU"
       ],
       "dailyPrice": 81644,
       "owner": {
@@ -109,10 +109,88 @@
         "phone": "+123456789"
       },
       "vehicleFeedback": [
-        "Great vehicle",
-        "Smooth ride",
-        "Highly recommended"
+        "A luxurious and capable off-roader.",
+        "Impressive performance and handling.",
+        "Exudes style and sophistication."
+      ]
+    },
+    {
+      "model": "Toyota Prado",
+      "capacity": 7,
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSniJF_JIE6GL6b50kCXtWFNUjdtytimsj0Gg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvFWXhVIN363QvMmwxPZsoBE2KeYVBKjn_w&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNGy2O-dpNQkUCx8ScptXwYWW6Po6byPEBw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbKyXuJV0OuNd3aNucZcvWLyA9Zq1rZaN3w&usqp=CAU"
+      ],
+      "dailyPrice": 81644,
+      "owner": {
+        "name": "Owner 6",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "A luxurious and capable off-roader.",
+        "Well-balanced SUV for various terrains.",
+        "Spacious cabin and comfortable seating.",
+        "Reliable and fuel-efficient."
+      ]
+    },
+    {
+      "model": "Mitsubishi Pajero",
+      "capacity": 7,
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXg5ku1Y24h1sqffmu2mQa7dlnZTn6WJpkg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSe-MHgsb7Q5LWbKc1PIg3kWFW887h7qrXwQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOo0HohAc8W80iH_1vs-NdxhYStwQPwEcsg&usqp=CAU"
+      ],
+      "dailyPrice": 81644,
+      "owner": {
+        "name": "Owner 6",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "A versatile SUV for all kinds of adventures.",
+        "Smooth ride and good handling.",
+        "Ample cargo space for luggage."
+      ]
+    },
+    {
+      "model": "Ford Ranger",
+      "capacity": 5,
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYTEiMNQLgdN1GmuEKMFLZVRZAfsPaB2kFA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+      ],
+      "dailyPrice": 81644,
+      "owner": {
+        "name": "Owner 6",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "A rugged and capable pickup truck.",
+        "Comfortable interior with modern technology.",
+        "Handled the off-road trails with ease."
+      ]
+    },
+    {
+      "model": "Volkswagen Amarok",
+      "capacity": 5,
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgUsz50iGKvBP1OXjKg3B9tdh2W-LaOnDOA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpSqIC7yu6u-wxRx6y9OTwfRbe1h_mTquZ0A&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmFl_Zz4Gl2lziPCJEKqq2Qh5TMsQTbFFIyw&usqp=CAU"
+      ],
+      "dailyPrice": 81644,
+      "owner": {
+        "name": "Owner 6",
+        "phone": "+123456789"
+      },
+      "vehicleFeedback": [
+        "Powerful pickup truck with excellent towing capacity.",
+        "Comfortable seating and user-friendly features.",
+        "Impressive fuel efficiency for a truck."
       ]
     }
-    ]
+  ]
 }

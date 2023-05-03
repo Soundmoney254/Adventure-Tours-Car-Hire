@@ -1,6 +1,6 @@
 import React from 'react';
 
-function BookingDetails(props) {
+function BookingDetails({car}) {
     return (
         <div>
             <div className="car-card__owner">

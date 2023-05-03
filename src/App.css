@@ -1,4 +1,21 @@
 #root{
-  margin-left: 10%;
-  margin-right: 10%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.carCard{
+  margin: 10px;
+  width: 42%;
+  border: solid gray;
+  border-radius: 6px;
+  padding: 5px;
+  text-align: left;
+  background-color: whitesmoke;
+  border-radius: 6px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+.carCardImage{
+  width: auto;
+  height: auto;
 }
