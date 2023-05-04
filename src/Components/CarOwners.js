@@ -39,6 +39,7 @@ function CarOwners(props) {
 
   async function handleSubmit(event) {
     event.preventDefault();
+    const form = document.querySelector("#form")
 
     if (formData.model.length > 0) {
       const updatedFormData = {
@@ -66,7 +67,6 @@ function CarOwners(props) {
         console.log("Error submitting car:", error);
       }
 
-
       const dataArray = [...submittedData, updatedFormData];
       setSubmittedData(dataArray);
       setFormData({
@@ -80,10 +80,45 @@ function CarOwners(props) {
         },
       });
       setErrors([]);
+      form.reset();
     } else {
       setErrors(["All inputs required!"]);
     }
   }
+
+  const handleSave = async () => {
+    try {
+      await fetch(`http://localhost:4200/vehicles/${editingId}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const updatedData = submittedData.map((data) => {
+        if (data.id === editingId) {
+          return formData;
+        }
+        return data;
+      });
+
+      setSubmittedData(updatedData);
+      setFormData({
+        model: "",
+        capacity: "",
+        photos: ["", "", ""],
+        dailyPrice: "",
+        owner: {
+          name: "",
+          phone: "",
+        },
+      });
+      setEditingId("");
+    } catch (error) {
+      console.log("Error updating car:", error);
+    }
+  };
 
   const submittedRows = submittedData.map((data) => (
     <tr key={data.id}>
@@ -93,11 +128,18 @@ function CarOwners(props) {
       <td>{data.owner.name}</td>
       <td>{data.owner.phone}</td>
       <td>
-        <button onClick={() => handleEdit(data.id)}>Edit</button>
-        <button onClick={() => handleDelete(data.id)}>Delete</button>
+        {editingId === data.id ? (
+          <button onClick={handleSave}>Save</button>
+        ) : (
+          <>
+            <button onClick={() => handleEdit(data.id)}>Edit</button>
+            <button onClick={() => handleDelete(data.id)}>Delete</button>
+          </>
+        )}
       </td>
     </tr>
   ));
+
 
   function handlePhotoChange(e, index) {
     const { value } = e.target;
@@ -131,45 +173,10 @@ function CarOwners(props) {
     setEditingId(id);
   };
 
-  const handleSave = async () => {
-    try {
-      await fetch(`http://localhost:4200/vehicles/${formData.id}`, {
-        method: "PATCH",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
-
-      const updatedData = submittedData.map((data) => {
-        if (data.id === formData.id) {
-          return formData;
-        }
-        return data;
-      });
-
-      setSubmittedData(updatedData);
-      setFormData({
-        model: "",
-        capacity: "",
-        photos: ["", "", ""],
-        dailyPrice: "",
-        owner: {
-          name: "",
-          phone: "",
-        },
-      });
-      setEditingId("");
-    } catch (error) {
-      console.log("Error updating car:", error);
-    }
-  };
-
-
   return (
     <div>
     <div id="addYourRide">
-      <form onSubmit={handleSubmit} className="form">
+      <form onSubmit={handleSubmit} className="form" id="form">
         <div className="mb-3">
           <input
             required

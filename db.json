@@ -217,6 +217,106 @@
       },
       "vehicleFeedback": [],
       "id": "eb69884e-d682-484a-bd64-22a6ca692e17"
+    },
+    {
+      "model": "Toyota Land Cruiser",
+      "capacity": "4",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+      ],
+      "dailyPrice": "56566",
+      "owner": {
+        "name": "sam",
+        "phone": "5565656"
+      },
+      "vehicleFeedback": [],
+      "id": "5ea3e02a-8657-4235-9d00-f5fdd1d9157c"
+    },
+    {
+      "model": "",
+      "capacity": "",
+      "photos": [],
+      "dailyPrice": "",
+      "owner": {
+        "name": "",
+        "phone": ""
+      },
+      "vehicleFeedback": [],
+      "id": "fb29a6d9-6d3c-42f2-9032-1c7e648688d8"
+    },
+    {
+      "model": "",
+      "capacity": "",
+      "photos": [],
+      "dailyPrice": "",
+      "owner": {
+        "name": "",
+        "phone": ""
+      },
+      "vehicleFeedback": [],
+      "id": "21fd9b91-8459-4aff-858a-a30cec29f809"
+    },
+    {
+      "model": "Toyota Land Cruiser",
+      "capacity": "4",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+      ],
+      "dailyPrice": "56566",
+      "owner": {
+        "name": "John",
+        "phone": "2200000"
+      },
+      "vehicleFeedback": [],
+      "id": "dcb8731c-45da-42b4-ab7c-2d81c8f0aef6"
+    },
+    {
+      "model": "Toyota Land Cruiser",
+      "capacity": "4",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+      ],
+      "dailyPrice": "34343",
+      "owner": {
+        "name": "John",
+        "phone": "5565656"
+      },
+      "vehicleFeedback": [],
+      "id": "490717a9-a5db-4b79-915d-a3472b62bc82"
+    },
+    {
+      "model": "",
+      "capacity": "",
+      "photos": [],
+      "dailyPrice": "",
+      "owner": {
+        "name": "",
+        "phone": ""
+      },
+      "vehicleFeedback": [],
+      "id": "cd6e7e69-4f97-4e58-9175-aaf6c3e9ad76"
+    },
+    {
+      "model": "Toyota Land Cruiser",
+      "capacity": "6",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+      ],
+      "dailyPrice": "34343",
+      "owner": {
+        "name": "sam",
+        "phone": "550000"
+      },
+      "vehicleFeedback": [],
+      "id": "8711a473-e1fd-40a6-b9f3-54d32891b79b"
     }
   ]
 }

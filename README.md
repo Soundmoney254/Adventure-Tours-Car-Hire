@@ -40,9 +40,14 @@ This is a web application that allows a customer to hire a vehicle for their tri
 
 
 ### License and copyright
- The code is released under the general Public License- GNU
+The code is released under the general Public License- GNU
 You have complete permission to use, modify and contribute to the project.
 Copyright  and license notices must be preserved.
 
 ## Author
 This project was created by Samuel Mbugua and Rukia Sharif.
+ 
+
+ 
+
+
