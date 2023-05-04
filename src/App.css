@@ -1,6 +1,6 @@
 #root {
-  margin-left: 5%;
-  margin-right: 5%;
+  margin-left: 15%;
+  margin-right: 15%;
 }
 
 .carCardContainer {
@@ -10,14 +10,13 @@
 }
 
 .carCard {
-  width: 42%;
+  width: 100%;
   margin-bottom: 20px;
   border: solid gray;
   border-radius: 6px;
   padding: 5px;
-  text-align: left;
+  text-align: center;
   background-color: whitesmoke;
-  text-align: left;
 }
 
 .carCardImage {
