@@ -2,7 +2,7 @@ import React from 'react'
 
 function About() {
   return (
-    <div>
+    <div id='about'>
       <header>WHAT DO WE DO?</header>
       <p>
         We make it easy to rent a car in Kenya for your tour. Whatever kind of
