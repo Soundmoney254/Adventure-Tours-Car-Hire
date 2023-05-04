@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/Adventure-Tours-Car-Hire/static/css/main.13c39f31.css",
-    "main.js": "/Adventure-Tours-Car-Hire/static/js/main.a0767b25.js",
+    "main.js": "/Adventure-Tours-Car-Hire/static/js/main.4f9d0526.js",
     "static/js/787.4fd5921a.chunk.js": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js",
     "index.html": "/Adventure-Tours-Car-Hire/index.html",
     "main.13c39f31.css.map": "/Adventure-Tours-Car-Hire/static/css/main.13c39f31.css.map",
-    "main.a0767b25.js.map": "/Adventure-Tours-Car-Hire/static/js/main.a0767b25.js.map",
+    "main.4f9d0526.js.map": "/Adventure-Tours-Car-Hire/static/js/main.4f9d0526.js.map",
     "787.4fd5921a.chunk.js.map": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.13c39f31.css",
-    "static/js/main.a0767b25.js"
+    "static/js/main.4f9d0526.js"
   ]
 }
