@@ -46,8 +46,3 @@ Copyright  and license notices must be preserved.
 
 ## Author
 This project was created by Samuel Mbugua and Rukia Sharif.
- 
-
- 
-
-
