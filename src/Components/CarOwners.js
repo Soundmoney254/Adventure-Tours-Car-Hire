@@ -5,16 +5,18 @@ function CarOwners(props) {
   const [formData, setFormData] = useState({
     model: "",
     capacity: "",
-    photos: [],
+    photos: ["", "", ""],
     dailyPrice: "",
     owner: {
       name: "",
       phone: "",
     },
+    vehicleFeedback: []
   });
 
   const [submittedData, setSubmittedData] = useState([]);
   const [errors, setErrors] = useState([]);
+  const [editingId, setEditingId] = useState("");
   function handleChange(event) {
     const { name, value } = event.target;
 
@@ -40,13 +42,13 @@ function CarOwners(props) {
 
     if (formData.model.length > 0) {
       const updatedFormData = {
-        id: uuidv4(),
         ...formData,
         photos: [
-          formData.photoOne,
-          formData.photoTwo,
-          formData.photoThree,
+          formData.photos[0],
+          formData.photos[1],
+          formData.photos[2],
         ],
+        id: uuidv4(),
       };
 
       try {
@@ -63,6 +65,7 @@ function CarOwners(props) {
       } catch (error) {
         console.log("Error submitting car:", error);
       }
+
 
       const dataArray = [...submittedData, updatedFormData];
       setSubmittedData(dataArray);
@@ -82,13 +85,17 @@ function CarOwners(props) {
     }
   }
 
- const submissionRows = submittedData.map((data) => (
+  const submittedRows = submittedData.map((data) => (
     <tr key={data.id}>
       <td>{data.model}</td>
       <td>{data.capacity}</td>
       <td>{data.dailyPrice}</td>
       <td>{data.owner.name}</td>
       <td>{data.owner.phone}</td>
+      <td>
+        <button onClick={() => handleEdit(data.id)}>Edit</button>
+        <button onClick={() => handleDelete(data.id)}>Delete</button>
+      </td>
     </tr>
   ));
 
@@ -97,15 +104,71 @@ function CarOwners(props) {
     setFormData((prevFormData) => {
       const updatedPhotos = [...prevFormData.photos];
       updatedPhotos[index] = value;
+      console.log(updatedPhotos)
       return {
         ...prevFormData,
-        photos: updatedPhotos
+        photos: updatedPhotos,
       };
     });
   }
 
+  const handleDelete = async (id) => {
+    try {
+      await fetch(`http://localhost:4200/vehicles/${id}`, {
+        method: "DELETE",
+      });
+
+      const updatedData = submittedData.filter((data) => data.id !== id);
+      setSubmittedData(updatedData);
+    } catch (error) {
+      console.log("Error deleting car:", error);
+    }
+  };
+
+  const handleEdit = (id) => {
+    const dataToEdit = submittedData.find((data) => data.id === id);
+    setFormData(dataToEdit);
+    setEditingId(id);
+  };
+
+  const handleSave = async () => {
+    try {
+      await fetch(`http://localhost:4200/vehicles/${formData.id}`, {
+        method: "PATCH",
+        headers: {
+          "Content-Type": "application/json",
+        },
+        body: JSON.stringify(formData),
+      });
+
+      const updatedData = submittedData.map((data) => {
+        if (data.id === formData.id) {
+          return formData;
+        }
+        return data;
+      });
+
+      setSubmittedData(updatedData);
+      setFormData({
+        model: "",
+        capacity: "",
+        photos: ["", "", ""],
+        dailyPrice: "",
+        owner: {
+          name: "",
+          phone: "",
+        },
+      });
+      setEditingId("");
+    } catch (error) {
+      console.log("Error updating car:", error);
+    }
+  };
+
+
   return (
     <div>
+    <div id="addYourRide">
       <form onSubmit={handleSubmit} className="form">
         <div className="mb-3">
           <input
@@ -129,33 +192,38 @@ function CarOwners(props) {
             placeholder="Capacity"
           />
         </div>
-
-        {formData.photos.length === 0 && (
           <div className="mb-3">
             <input
               required
               type="text"
               className="form-control"
               onChange={(e) => handlePhotoChange(e, 0)}
-              value={formData.photos[0] || ""}
+              value={formData.photos[0]}
               placeholder="Photo 1"
             />
           </div>
-        )}
 
-        {formData.photos.length > 0 &&
-          formData.photos.map((photo, index) => (
-            <div className="mb-3" key={index}>
-              <input
-                required
-                type="text"
-                className="form-control"
-                onChange={(e) => handlePhotoChange(e, index)}
-                value={photo}
-                placeholder={`Photo ${index + 1}`}
-              />
-            </div>
-          ))}
+          <div className="mb-3">
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={(e) => handlePhotoChange(e, 1)}
+              value={formData.photos[1]}
+              placeholder="Photo 2"
+            />
+          </div>
+
+          <div className="mb-3">
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={(e) => handlePhotoChange(e, 2)}
+              value={formData.photos[2]}
+              placeholder="Photo 3"
+            />
+          </div>
 
         <div className="mb-3">
           <input
@@ -190,7 +258,9 @@ function CarOwners(props) {
             placeholder="Owner Phone"
           />
         </div>
-        <button type="submit" className="btn btn-primary">Submit</button>
+          <button type="submit" className="btn btn-primary">
+            {editingId ? "Save" : "Submit"}
+          </button>
       </form>
 
       {errors.length > 0 &&
@@ -199,23 +269,23 @@ function CarOwners(props) {
             {error}
           </p>
         ))}
-      <h3>Submissions</h3>
-      {submittedData.length > 0 ? (
-        <table class="table table-bordered border-primary">
-          <thead>
-            <tr>
-              <th>Model</th>
-              <th>Capacity</th>
-              <th>Daily Price</th>
-              <th>Owner Name</th>
-              <th>Owner Phone</th>
-            </tr>
-          </thead>
-          <tbody>{submissionRows}</tbody>
-        </table>
-      ) : (
-        <p>No submissions yet.</p>
-      )}
+      
+    </div>
+      <div id="submittedData">
+        <h3>Your Submitted Data</h3>
+          <table className="table table-dark table-sm">
+            <thead>
+              <tr>
+                <th>Model</th>
+                <th>Capacity</th>
+                <th>Daily Price</th>
+                <th>Owner Name</th>
+                <th>Owner Phone</th>
+              </tr>
+            </thead>
+          <tbody>{submittedRows}</tbody>
+          </table>
+    </div>
     </div>
   );
 }

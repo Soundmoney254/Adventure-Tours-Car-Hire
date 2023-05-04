@@ -29,11 +29,11 @@ function App() {
     <Router>
       <div className="App">
         <h1>ADVENTURE TOURS CAR HIRE</h1>
-        <nav>
-          <NavLink to="/" ><h2>Homepage</h2></NavLink>
-          <NavLink to="/compare-cars" activeclassname="active"><h2>Find your Ride</h2></NavLink>
-          <NavLink to="/car-owners" activeclassname="active"><h2>Add your Ride</h2></NavLink>
-          <NavLink to="/about-us" activeclassname="active"><h2>About Us</h2></NavLink>
+        <nav >
+          <NavLink to="/" className="nav-link"><h2>Homepage</h2></NavLink>
+          <NavLink to="/compare-cars" className="nav-link"><h2>Find Ride</h2></NavLink>
+          <NavLink to="/car-owners" className="nav-link"><h2>Add Ride</h2></NavLink>
+          <NavLink to="/about-us" className="nav-link"><h2>About Us</h2></NavLink>
         </nav>
         <Routes>
           <Route exact path="/" element={<HomePage />} />

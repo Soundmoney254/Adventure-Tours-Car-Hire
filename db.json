@@ -201,6 +201,22 @@
         "Comfortable seating and user-friendly features.",
         "Impressive fuel efficiency for a truck."
       ]
+    },
+    {
+      "model": "Toyota Land Cruiser",
+      "capacity": "3",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU"
+      ],
+      "dailyPrice": "56566",
+      "owner": {
+        "name": "sam",
+        "phone": "454546"
+      },
+      "vehicleFeedback": [],
+      "id": "eb69884e-d682-484a-bd64-22a6ca692e17"
     }
   ]
 }
