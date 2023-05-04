@@ -46,7 +46,8 @@ nav {
 
 h1 {
   text-align: center;
-  margin: 20px;
+  margin-top: 20px;
+  background-color: transparent;
 }
 
 h2 {
@@ -65,25 +66,28 @@ form {
   background-position: center;
   background-size: cover;
 }
-.About{
+#about{
   max-width: 800px;
   padding: 40px;
   margin: 0 auto;
   background-color: transparent;
   box-shadow: 0px 0px 20px rgba(167, 107, 107, 0.1);
   text-shadow: 0cm;
+  text-align: center;
 }
 header{
   display: flex;
   text-decoration: solid;
   color:blueviolet;
   font-weight: bold;
+  text-align: center;
 }
 .homePage{
-  background-image: url("https://images.unsplash.com/photo-1468818438311-4bab781ab9b8?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=871&q=80");
+  background-image: url("https://images.unsplash.com/photo-1682955153155-fc7c7beb7c44?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=967&q=80");
   background-position: center;
   background-size: cover;
   height: 500px;
   width: 100%;
   position:sticky;
+  color: black;
 }
