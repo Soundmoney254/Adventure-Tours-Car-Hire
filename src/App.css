@@ -1,12 +1,25 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('https://images.unsplash.com/photo-1516426122078-c23e76319801?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1736&q=80');
+  background-position: auto;
+  background-size: cover;
+}
+
 #root {
   margin-left: 15%;
   margin-right: 15%;
+  background-color: transparent;
+  background-position: auto;
+  background-size: cover;
+  height: auto;
 }
 
 .carCardContainer {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  background-color: transparent;
 }
 
 .carCard {
@@ -16,7 +29,7 @@
   border-radius: 6px;
   padding: 5px;
   text-align: center;
-  background-color: whitesmoke;
+  background-color: transparent;
 }
 
 .carCardImage {
@@ -26,7 +39,7 @@
 
 nav {
   height: 100px;
-  background-color: antiquewhite;
+  background-color: transparent;
   display: flex;
   justify-content: center;
 }
@@ -40,6 +53,18 @@ h2 {
   margin: 0 10px;
 }
 
-input{
-  margin: 5px;
+/* input {
+  margin: 16px;
+  display: block;
+  width: 400px;
+  height: 40px;
+  border-radius:7px;
+} */
+
+form {
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
