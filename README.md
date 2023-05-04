@@ -1,5 +1,5 @@
 # ADVENTURE TOURS CAR HIRE - Seamless Touring
-This is a web application that allows a customer to hire a vehicle for their trip and make bookings. It also allows the vehicle owner to post their vehicle for hire.
+This is a web application that allows a customer to hire a vehicle by linking them to car owners. It also allows the vehicle owners to post their vehicle up for hire.
 
 
 ### Built With:
