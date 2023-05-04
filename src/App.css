@@ -70,7 +70,12 @@ form {
   padding: 40px;
   margin: 0 auto;
   background-color: transparent;
-  box-shadow: 0px 0px 20px rgba(115, 84, 84, 0.1);
-
-
+  box-shadow: 0px 0px 20px rgba(167, 107, 107, 0.1);
+  text-shadow: 0cm;
+}
+header{
+  display: flex;
+  text-decoration: solid;
+  color:blueviolet;
+  font-weight: bold;
 }
