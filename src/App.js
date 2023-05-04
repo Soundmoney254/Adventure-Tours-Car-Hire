@@ -2,7 +2,9 @@ import './App.css';
 import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, NavLink, Route, Routes } from 'react-router-dom';
 import CarOwners from './Components/CarOwners';
+import BookingDetails from './Components/BookingDetails';
 import CompareCars from './Components/CompareCars';
+
 
 function App() {
   const [cars, setCars] = useState([]);
