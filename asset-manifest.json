@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Adventure-Tours-Car-Hire/static/css/main.d702dd4b.css",
-    "main.js": "/Adventure-Tours-Car-Hire/static/js/main.669ed9bc.js",
+    "main.css": "/Adventure-Tours-Car-Hire/static/css/main.13c39f31.css",
+    "main.js": "/Adventure-Tours-Car-Hire/static/js/main.1018a8e9.js",
     "static/js/787.4fd5921a.chunk.js": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js",
     "index.html": "/Adventure-Tours-Car-Hire/index.html",
-    "main.d702dd4b.css.map": "/Adventure-Tours-Car-Hire/static/css/main.d702dd4b.css.map",
-    "main.669ed9bc.js.map": "/Adventure-Tours-Car-Hire/static/js/main.669ed9bc.js.map",
+    "main.13c39f31.css.map": "/Adventure-Tours-Car-Hire/static/css/main.13c39f31.css.map",
+    "main.1018a8e9.js.map": "/Adventure-Tours-Car-Hire/static/js/main.1018a8e9.js.map",
     "787.4fd5921a.chunk.js.map": "/Adventure-Tours-Car-Hire/static/js/787.4fd5921a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.d702dd4b.css",
-    "static/js/main.669ed9bc.js"
+    "static/css/main.13c39f31.css",
+    "static/js/main.1018a8e9.js"
   ]
 }
