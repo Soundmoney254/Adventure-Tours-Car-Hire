@@ -1,8 +1,8 @@
-# ADVENTURE TOURS CAR HIRE - Renting a vehicle made easy.
+# ADVENTURE TOURS CAR HIRE - Seemless Touring
 This is a web application that allows a customer to hire a vehicle for their trip and make bookings. It also allows the vehicle owner to post their vehicle for hire.
 
-## Table of contents
-Built With:
+
+### Built With:
 1.HTML: Provides the structure of the web page.
 2.CSS: Provides the styling of the web page.
 3.React Js: Provides the functionality of the web page.
@@ -46,8 +46,3 @@ Copyright  and license notices must be preserved.
 
 ## Author
 This project was created by Samuel Mbugua and Rukia Sharif.
- 
-
- 
-
-
