@@ -27,7 +27,6 @@ function CarOwners(props) {
   }
   function handleSubmit(event) {
     event.preventDefault();
-  // full names is required
   if (fullNames.length > 0) {
     const formData = { fullNames: fullNames, ownerAddress: ownerAddress, phoneNumber: phoneNumber, vehicleModel: vehicleModel, identificationNumber: identificationNumber,};
     const dataArray = [...submittedData, formData];
@@ -61,7 +60,6 @@ function CarOwners(props) {
       <input type="text" onChange={handleIdentificationNumber} value={identificationNumber} name="identificationNumber" placeholder="Number Plate" />
       <button type="submit">Submit</button>
     </form>
-    {/* conditionally render error messages */}
     {errors.length > 0
       ? errors.map((error, index) => (
           <p key={index} style={{ color: "red" }}>
