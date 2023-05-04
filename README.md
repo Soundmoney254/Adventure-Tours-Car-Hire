@@ -15,8 +15,8 @@ This is a web application that allows a customer to hire a vehicle for their tri
  2.Clone the repository.
 
  3. Download the code files form the repository.
- 4.Open the files on your code editor.
- 5.Run "npm start" inside the app's root directory.
+ 4. Open the files on your code editor.
+ 5. Run "npm start" inside the app's root directory.
  6. The live server will launch the browser window with the app.
 
 

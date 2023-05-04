@@ -147,13 +147,13 @@
       "model": "Mitsubishi Pajero",
       "capacity": 7,
       "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSzXg5ku1Y24h1sqffmu2mQa7dlnZTn6WJpkg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTSe-MHgsb7Q5LWbKc1PIg3kWFW887h7qrXwQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKOo0HohAc8W80iH_1vs-NdxhYStwQPwEcsg&usqp=CAU"
+        "https://westfield.co.ke/wp-content/uploads/2022/02/2022-mitsubishi-pajero-final-edition_100791792-1-1024x576.jpg",
+        "https://westfield.co.ke/wp-content/uploads/2022/02/mitsubishi-pajero-final-edition-2-1024x576.jpg",
+        "https://westfield.co.ke/wp-content/uploads/2022/02/Mitsubishi-Pajero-1.png"
       ],
       "dailyPrice": 81644,
       "owner": {
-        "name": "Owner 6",
+        "name": "Trevor Noah",
         "phone": "+123456789"
       },
       "vehicleFeedback": [
@@ -167,13 +167,13 @@
       "model": "Ford Ranger",
       "capacity": 5,
       "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQsYTEiMNQLgdN1GmuEKMFLZVRZAfsPaB2kFA&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
+        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_L5A0469_easter.tif?croppathe=1_3x2&wid=900",
+        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/23_FRD_RGR_50826_RcRd.tif?croppathe=1_3x2&wid=900",
+        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_60A0509_RaceRed.tif?croppathe=1_21x9&wid=900"
       ],
       "dailyPrice": 81644,
       "owner": {
-        "name": "Owner 6",
+        "name": "Paul Simon",
         "phone": "+123456789"
       },
       "vehicleFeedback": [
@@ -187,136 +187,21 @@
       "model": "Volkswagen Amarok",
       "capacity": 5,
       "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDgUsz50iGKvBP1OXjKg3B9tdh2W-LaOnDOA&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpSqIC7yu6u-wxRx6y9OTwfRbe1h_mTquZ0A&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSmFl_Zz4Gl2lziPCJEKqq2Qh5TMsQTbFFIyw&usqp=CAU"
+        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter_0.jpg?itok=diHeR6tT",
+        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter-tracking.jpg?itok=gP-9Iz6m",
+        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-side.jpg?itok=gjUFF3Tx"
       ],
       "dailyPrice": 81644,
       "owner": {
-        "name": "Owner 6",
+        "name": "Mark John",
         "phone": "+123456789"
       },
       "vehicleFeedback": [
         "Powerful pickup truck with excellent towing capacity.",
         "Comfortable seating and user-friendly features.",
-        "Impressive fuel efficiency for a truck."
+        "Impressive fuel efficiency for a truck.",
+        "Great Car"
       ]
-    },
-    {
-      "model": "Toyota Land Cruiser",
-      "capacity": "3",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR52xK99dpkD_ITr1yxX5vxlahjnYISd5zNhg&usqp=CAU"
-      ],
-      "dailyPrice": "56566",
-      "owner": {
-        "name": "sam",
-        "phone": "454546"
-      },
-      "vehicleFeedback": [],
-      "id": "eb69884e-d682-484a-bd64-22a6ca692e17"
-    },
-    {
-      "model": "Toyota Land Cruiser",
-      "capacity": "4",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
-      ],
-      "dailyPrice": "56566",
-      "owner": {
-        "name": "sam",
-        "phone": "5565656"
-      },
-      "vehicleFeedback": [],
-      "id": "5ea3e02a-8657-4235-9d00-f5fdd1d9157c"
-    },
-    {
-      "model": "",
-      "capacity": "",
-      "photos": [],
-      "dailyPrice": "",
-      "owner": {
-        "name": "",
-        "phone": ""
-      },
-      "vehicleFeedback": [],
-      "id": "fb29a6d9-6d3c-42f2-9032-1c7e648688d8"
-    },
-    {
-      "model": "",
-      "capacity": "",
-      "photos": [],
-      "dailyPrice": "",
-      "owner": {
-        "name": "",
-        "phone": ""
-      },
-      "vehicleFeedback": [],
-      "id": "21fd9b91-8459-4aff-858a-a30cec29f809"
-    },
-    {
-      "model": "Toyota Land Cruiser",
-      "capacity": "4",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
-      ],
-      "dailyPrice": "56566",
-      "owner": {
-        "name": "John",
-        "phone": "2200000"
-      },
-      "vehicleFeedback": [],
-      "id": "dcb8731c-45da-42b4-ab7c-2d81c8f0aef6"
-    },
-    {
-      "model": "Toyota Land Cruiser",
-      "capacity": "4",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
-      ],
-      "dailyPrice": "34343",
-      "owner": {
-        "name": "John",
-        "phone": "5565656"
-      },
-      "vehicleFeedback": [],
-      "id": "490717a9-a5db-4b79-915d-a3472b62bc82"
-    },
-    {
-      "model": "",
-      "capacity": "",
-      "photos": [],
-      "dailyPrice": "",
-      "owner": {
-        "name": "",
-        "phone": ""
-      },
-      "vehicleFeedback": [],
-      "id": "cd6e7e69-4f97-4e58-9175-aaf6c3e9ad76"
-    },
-    {
-      "model": "Toyota Land Cruiser",
-      "capacity": "6",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSDDt_37uv7nAYeBo0bJ8yF6myePesIbXZ7bQ&usqp=CAU"
-      ],
-      "dailyPrice": "34343",
-      "owner": {
-        "name": "sam",
-        "phone": "550000"
-      },
-      "vehicleFeedback": [],
-      "id": "8711a473-e1fd-40a6-b9f3-54d32891b79b"
     }
   ]
 }

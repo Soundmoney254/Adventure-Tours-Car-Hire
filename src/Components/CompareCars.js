@@ -1,5 +1,4 @@
 import React, { useEffect, useState } from 'react';
-import BookingDetails from './BookingDetails';
 import CarCard from './CarCard';
 
 function CompareCars({ cars }) {
@@ -20,13 +19,7 @@ function CompareCars({ cars }) {
     }
   }, [cars]);
 
-  return <div>
-        <div>
-          <nav>
-          <BookingDetails/>
-          </nav>
-        </div>
-   
+  return <div>   
       {showCars}
     </div>;
 }
