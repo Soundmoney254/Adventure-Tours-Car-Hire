@@ -1,11 +1,11 @@
-import React from 'react';
+import React, {useState} from 'react';
 
 
 function BookingDetails(props) {
-    const [CustomerName, setCustomerName] = useState("");
-    const [IdNumber, setIdNumber] = useState("");
-    const [CustomerAddress, setCustomerAddress] = useState("");
-    const [PhoneNumber, setPhoneNumber] = useState("");
+    const [customerName, setCustomerName] = useState("");
+    const [idNumber, setIdNumber] = useState("");
+    const [customerAddress, setCustomerAddress] = useState("");
+    const [phoneNumber, setPhoneNumber] = useState("");
     const [submittedData, setSubmittedData] = useState([]);
     const [errors, setErrors] = useState([]);
 
@@ -26,7 +26,10 @@ function BookingDetails(props) {
         event.preventDefault();
       // customer name is required
       if (customerName.length > 0) {
-        const formData = { customerName: customerName, idNumber: idNumber, customerAddress: customerAddress, phoneNumber: phoneNumber,};
+        const formData = { customerName: customerName, 
+          idNumber: idNumber, 
+          customerAddress: customerAddress, 
+          phoneNumber: phoneNumber};
         const dataArray = [...submittedData, formData];
         setSubmittedData(dataArray);
         setCustomerName("");
