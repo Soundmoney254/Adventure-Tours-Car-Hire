@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from 'react';
 import BookingDetails from './BookingDetails';
-import { v4 as uuidv4 } from 'uuid';
 import CarCard from './CarCard';
 
 function CompareCars({ cars }) {
@@ -8,8 +7,8 @@ function CompareCars({ cars }) {
 
   useEffect(() => {
     if (cars) {
-      const renderedCars = cars.map((car) => (
-        <CarCard key={uuidv4()} vehicle={car} />
+      const renderedCars = cars.reverse().map((car) => (
+        <CarCard key={car.id} vehicle={car} />
       ));
       setShowCars(renderedCars);
     } else {
