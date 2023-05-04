@@ -3,10 +3,8 @@ import React, { useEffect, useState } from 'react';
 import { BrowserRouter as Router, NavLink, Route, Routes } from 'react-router-dom';
 import CarOwners from './Components/CarOwners';
 import CompareCars from './Components/CompareCars';
-import BookingDetails from './Components/BookingDetails';
 import HomePage from './Components/HomePage';
 import About from './Components/About';
-
 
 function App() {
   const [cars, setCars] = useState([]);
@@ -29,7 +27,7 @@ function App() {
     <Router>
       <div className="App">
         <h1>ADVENTURE TOURS CAR HIRE</h1>
-        <nav >
+        <nav>
           <NavLink to="/" className="nav-link"><h2>Homepage</h2></NavLink>
           <NavLink to="/compare-cars" className="nav-link"><h2>Find Ride</h2></NavLink>
           <NavLink to="/car-owners" className="nav-link"><h2>Add Ride</h2></NavLink>
@@ -40,10 +38,10 @@ function App() {
           <Route path="/car-owners" element={<CarOwners />} />
           <Route path="/compare-cars" element={<CompareCars cars={cars} />} />
           <Route path="/about-us" element={<About />} />
-          <Route path="/booking-details" element={<BookingDetails />} />
         </Routes>
       </div>
     </Router>
   );
 }
+
 export default App;
