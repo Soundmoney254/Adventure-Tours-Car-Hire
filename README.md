@@ -1,4 +1,4 @@
-# ADVENTURE TOURS CAR HIRE - Seemless Touring
+# ADVENTURE TOURS CAR HIRE - Seamless Touring
 This is a web application that allows a customer to hire a vehicle for their trip and make bookings. It also allows the vehicle owner to post their vehicle for hire.
 
 
@@ -23,7 +23,7 @@ This is a web application that allows a customer to hire a vehicle for their tri
  #### Features
  1. The web page has a simple and user-friendly interfaces.
  2. Has a "Homepage" to display the website details and contacts.
- 3. It has "Find ride" interface that aloows the customer to find a vehicle of their choice and make bookings.
+ 3. It has "Find ride" interface that allows the customer to find a vehicle of their choice and make bookings.
  4. It has a "Add ride" interface that allows the owner of a vehicle to post their vehicle details.
  5. We have used react routers to route through different react components.
 
