@@ -1,6 +1,7 @@
 {
   "vehicles": [
     {
+      "id": 1,
       "model": "Toyota Land Cruiser",
       "capacity": 7,
       "photos": [
@@ -20,6 +21,7 @@
       ]
     },
     {
+      "id": 2,
       "model": "Land Rover Defender ",
       "capacity": 5,
       "photos": [
@@ -39,6 +41,7 @@
       ]
     },
     {
+      "id": 3,
       "model": "Jeep Wrangler",
       "capacity": 4,
       "photos": [
@@ -58,6 +61,7 @@
       ]
     },
     {
+      "id": 4,
       "model": "Ford Explorer",
       "capacity": 7,
       "photos": [
@@ -77,6 +81,7 @@
       ]
     },
     {
+      "id": 5,
       "model": "Nissan Patrol",
       "capacity": 8,
       "photos": [
@@ -96,6 +101,7 @@
       ]
     },
     {
+      "id": 6,
       "model": "Mercedes-Benz G-Class",
       "capacity": 5,
       "photos": [
@@ -115,6 +121,7 @@
       ]
     },
     {
+      "id": 7,
       "model": "Toyota Prado",
       "capacity": 7,
       "photos": [
@@ -136,6 +143,7 @@
       ]
     },
     {
+      "id": 8,
       "model": "Mitsubishi Pajero",
       "capacity": 7,
       "photos": [
@@ -155,6 +163,7 @@
       ]
     },
     {
+      "id": 9,
       "model": "Ford Ranger",
       "capacity": 5,
       "photos": [
@@ -174,6 +183,7 @@
       ]
     },
     {
+      "id": 10,
       "model": "Volkswagen Amarok",
       "capacity": 5,
       "photos": [
