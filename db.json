@@ -1,226 +1,204 @@
-{
-  "vehicles": [
-    {
-      "id": 1,
-      "model": "Toyota Land Cruiser",
-      "capacity": 7,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKV9icO-EdR288kc3_K3RE3lCW14_HOYFgYQ&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTJsvaGj7SCabfqCiFvE21VKQARz9VmN0bO73QdfNcXTO773OUAevORJt2IkhxnzdqVV34&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI9NKMlaAmuMRBCGFi_aWUTAxFoYBZbD4YsfH7xOndWtIoRoQFMeuupWvATScTiPHTLKU&usqp=CAU"
-      ],
-      "dailyPrice": 20000,
-      "owner": {
-        "name": "Ole Sereni",
-        "phone": "+254713087979"
-      },
-      "vehicleFeedback": [
-        "Excellent vehicle for off-roading!",
-        "Spacious and comfortable for long trips.",
-        "Handled the rough terrains like a champ.",
-        "good"
-      ]
+[
+  {
+    "id": 1,
+    "model": "Toyota Land Cruiser",
+    "capacity": 7,
+    "photos": [
+      "https://global.toyota/pages/news/images/2021/08/02/1330/001.jpg",
+      "https://global.toyota/pages/news/images/2021/08/02/1330/20210802_01_kv_w1920.jpg",
+      "https://global.toyota/pages/news/images/2021/08/02/1330/010.jpg"
+    ],
+    "dailyPrice": 20000,
+    "owner": {
+      "name": "John kariuki",
+      "phone": "+254713087979"
     },
-    {
-      "id": 2,
-      "model": "Land Rover Defender ",
-      "capacity": 5,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjxZ2rGIDDSVbWxGkof0T16dB9oUeGk6GCA&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvwgQI5518SmR9XU0C5XliMLaaZWrmzdIUqw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-LzedvoGssB_IKM8_YhpCR3ZwYTIPcOYGA&usqp=CAU"
-      ],
-      "dailyPrice": 20000,
-      "owner": {
-        "name": "Owner 2",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "A rugged and reliable companion.",
-        "Impressive off-road capabilities.",
-        "Sleek design and comfortable seating."
-      ]
+    "vehicleFeedback": [
+      "Excellent vehicle for off-roading!",
+      "Spacious and comfortable for long trips.",
+      "Handled the rough terrains like a champ."
+    ]
+  },
+  {
+    "id": 2,
+    "model": "Land Rover Defender ",
+    "capacity": 5,
+    "photos": [
+      "https://www.landrover.com/content/dam/lrdx/global/l663/23my/int/L663_23MY_059_GLHD_110_V8.jpg.res/JLRHASH1FCBD04D437372B95A6426D8A6DFF99FCEA8F7AD/L663_23MY_059_GLHD_110_V8.jpg",
+      "https://images.barrons.com/im-260651?width=700&size=1.7777777777777777",
+      "https://www.landrover.com/content/dam/lrdx/global/l663/23my/int/L663_23MY_059_GLHD_110_V8.jpg.res/JLRHASH1FCBD04D437372B95A6426D8A6DFF99FCEA8F7AD/L663_23MY_059_GLHD_110_V8.jpg"
+    ],
+    "dailyPrice": 20000,
+    "owner": {
+      "name": "Peter Ndegwa",
+      "phone": "0756342100"
     },
-    {
-      "id": 3,
-      "model": "Jeep Wrangler",
-      "capacity": 4,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9_HPjBgjgjSxRjfDkDweE-7ZSfH243tXbXw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTlzN7qoBLAtcfr5qT5FuQC5fZ9XZIwxke5Qw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQIZ5VzmCsvl9bEg5JPc5koQesfH-jK0olWYA&usqp=CAU"
-      ],
-      "dailyPrice": 158963,
-      "owner": {
-        "name": "Owner 3",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "An iconic vehicle for adventurous trips.",
-        "Loved driving with the top down!",
-        "Perfect for exploring off-the-beaten-path destinations."
-      ]
+    "vehicleFeedback": [
+      "A rugged and reliable companion.",
+      "Impressive off-road capabilities.",
+      "Sleek design and comfortable seating."
+    ]
+  },
+  {
+    "id": 3,
+    "model": "Jeep Wrangler",
+    "capacity": 4,
+    "photos": [
+      "https://imgd.aeplcdn.com/1056x594/n/cw/ec/54437/wrangler-exterior-right-front-three-quarter-51.jpeg?q=75&wm=1",
+      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Jeep/Wrangler/6486/1675763377546/front-left-side-47.jpg?tr=w-456",
+      "https://www.motortrend.com/uploads/2022/08/2023-Jeep-Wrangler-Sahara-front-three-quarter-view-1.jpg?fit=around%7C875:492.1875"
+    ],
+    "dailyPrice": 18963,
+    "owner": {
+      "name": "Ann Njeri",
+      "phone": "0712786590"
     },
-    {
-      "id": 4,
-      "model": "Ford Explorer",
-      "capacity": 7,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ9-umChWvV1iwaqfQB78DK1eyoR9ubWRB3Bg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQrxMRHtcLPLhebjhk6JfdJOuh9Mc0zumYU6g&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcReYpPKn12mply7DtKvJfCPNRH3_xUKWp76Ug&usqp=CAU"
-      ],
-      "dailyPrice": 11730,
-      "owner": {
-        "name": "Owner 4",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "Great family SUV with ample space.",
-        "Smooth and comfortable ride.",
-        "Advanced safety features for peace of mind."
-      ]
+    "vehicleFeedback": [
+      "An iconic vehicle for adventurous trips.",
+      "Loved driving with the top down!",
+      "Perfect for exploring off-the-beaten-path destinations."
+    ]
+  },
+  {
+    "id": 4,
+    "model": "Ford Explorer",
+    "capacity": 7,
+    "photos": [
+      "https://upload.wikimedia.org/wikipedia/commons/8/83/2011_Ford_Explorer_XLT_--_05-18-2011.jpg",
+      "https://media.ed.edmunds-media.com/ford/explorer/2021/oem/2021_ford_explorer_4dr-suv_king-ranch_fq_oem_1_815.jpg",
+      "https://hips.hearstapps.com/hmg-prod/images/2021-ford-explorer-timberline-102-1620059693.jpg?crop=0.657xw:0.752xh;0.128xw,0.221xh&resize=1200:*"
+    ],
+    "dailyPrice": 11730,
+    "owner": {
+      "name": "Helen Wambui",
+      "phone": "0734560921"
     },
-    {
-      "id": 5,
-      "model": "Nissan Patrol",
-      "capacity": 8,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSIQBK-44OZQFpICGGw7n-LXLa9TSSq08_Lmg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQyHQLTCILLFD8QkRmehLtRUo1jvfsLZXY-vg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRbCLJHwZpy7dYHnnVa45Ya0Ufd2jPQWg3qgw&usqp=CAU"
-      ],
-      "dailyPrice": 197613,
-      "owner": {
-        "name": "Owner 5",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "Powerful engine and excellent towing capacity.",
-        "Luxurious interior with high-tech amenities.",
-        "A reliable companion for long journeys."
-      ]
+    "vehicleFeedback": [
+      "Great family SUV with ample space.",
+      "Smooth and comfortable ride.",
+      "Advanced safety features for peace of mind."
+    ]
+  },
+  {
+    "id": 5,
+    "model": "Nissan Patrol",
+    "capacity": 8,
+    "photos": [
+      "https://carsguide-res.cloudinary.com/image/upload/f_auto,fl_lossy,q_auto,t_cg_hero_large/v1/editorial/segment_review/hero_image/2021-Nissan-patrol-ti-l-suv-white-dean-mccartney-1001x565-%281%29.jpg",
+      "https://www.motortrend.com/uploads/f/248115422.jpg?fit=around%7C875:492",
+      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Nissan/Nissan-Patrol/5121/front-left-side-47.jpg?tr=w-456"
+    ],
+    "dailyPrice": 197613,
+    "owner": {
+      "name": "Abdi hassan",
+      "phone": "0720789800"
     },
-    {
-      "id": 6,
-      "model": "Mercedes-Benz G-Class",
-      "capacity": 5,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS84NMLHVAIXpUv3sYmQr02NPKyPRuqemMtXw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGZoGbKy8pMR_qSEu6pPoKQGYfF5heXxShZw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRPWfeKny686W97RAovBvXebGQAi3NxprPA7A&usqp=CAU"
-      ],
-      "dailyPrice": 81644,
-      "owner": {
-        "name": "Owner 6",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "A luxurious and capable off-roader.",
-        "Impressive performance and handling.",
-        "Exudes style and sophistication."
-      ]
+    "vehicleFeedback": [
+      "Powerful engine and excellent towing capacity.",
+      "Luxurious interior with high-tech amenities.",
+      "A reliable companion for long journeys."
+    ]
+  },
+  {
+    "id": 6,
+    "model": "Mercedes-Benz G-Class",
+    "capacity": 5,
+    "photos": [
+      "https://stimg.cardekho.com/images/carexteriorimages/630x420/Mercedes-Benz/Mercedes-Benz-G-Class/6607/front-left-side-47.jpg?impolicy=resize&imwidth=220",
+      "https://www.bestcarsforsaleinkenya.co.ke/wp-content/uploads/2021/05/unnamed.webp",
+      "https://cdn.inventoryrsc.com/129277632_6454014093301a0ae8a32a5a.jpg"
+    ],
+    "dailyPrice": 81644,
+    "owner": {
+      "name": "Sophia Davis",
+      "phone": "0710245678"
     },
-    {
-      "id": 7,
-      "model": "Toyota Prado",
-      "capacity": 7,
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSniJF_JIE6GL6b50kCXtWFNUjdtytimsj0Gg&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQSvFWXhVIN363QvMmwxPZsoBE2KeYVBKjn_w&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSLNGy2O-dpNQkUCx8ScptXwYWW6Po6byPEBw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbKyXuJV0OuNd3aNucZcvWLyA9Zq1rZaN3w&usqp=CAU"
-      ],
-      "dailyPrice": 81644,
-      "owner": {
-        "name": "Owner 6",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "A luxurious and capable off-roader.",
-        "Well-balanced SUV for various terrains.",
-        "Spacious cabin and comfortable seating.",
-        "Reliable and fuel-efficient."
-      ]
+    "vehicleFeedback": [
+      "A luxurious and capable off-roader.",
+      "Impressive performance and handling.",
+      "Exudes style and sophistication."
+    ]
+  },
+  {
+    "id": 7,
+    "model": "Toyota Prado",
+    "capacity": 7,
+    "photos": [
+      "https://editorial.pxcrush.net/carsales/general/editorial/toyota-landcruiser-prado-672d.jpg?width=1024&height=682",
+      "https://www.autoevolution.com/cars/toyota-land-cruiser-150-2017.html#aegal_0",
+      "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRnbKyXuJV0OuNd3aNucZcvWLyA9Zq1rZaN3w&usqp=CAU"
+    ],
+    "dailyPrice": 81644,
+    "owner": {
+      "name": "Jane Ngoiri",
+      "phone": "0712345687"
     },
-    {
-      "id": 8,
-      "model": "Mitsubishi Pajero",
-      "capacity": 7,
-      "photos": [
-        "https://westfield.co.ke/wp-content/uploads/2022/02/2022-mitsubishi-pajero-final-edition_100791792-1-1024x576.jpg",
-        "https://westfield.co.ke/wp-content/uploads/2022/02/mitsubishi-pajero-final-edition-2-1024x576.jpg",
-        "https://westfield.co.ke/wp-content/uploads/2022/02/Mitsubishi-Pajero-1.png"
-      ],
-      "dailyPrice": 81644,
-      "owner": {
-        "name": "Trevor Noah",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "A versatile SUV for all kinds of adventures.",
-        "Smooth ride and good handling.",
-        "Ample cargo space for luggage."
-      ]
+    "vehicleFeedback": [
+      "A luxurious and capable off-roader.",
+      "Well-balanced SUV for various terrains.",
+      "Spacious cabin and comfortable seating.",
+      "Reliable and fuel-efficient."
+    ]
+  },
+  {
+    "id": 8,
+    "model": "Mitsubishi Pajero",
+    "capacity": 7,
+    "photos": [
+      "https://westfield.co.ke/wp-content/uploads/2022/02/2022-mitsubishi-pajero-final-edition_100791792-1-1024x576.jpg",
+      "https://westfield.co.ke/wp-content/uploads/2022/02/mitsubishi-pajero-final-edition-2-1024x576.jpg",
+      "https://westfield.co.ke/wp-content/uploads/2022/02/Mitsubishi-Pajero-1.png"
+    ],
+    "dailyPrice": 81644,
+    "owner": {
+      "name": "Trevor Noah",
+      "phone": "+123456789"
     },
-    {
-      "id": 9,
-      "model": "Ford Ranger",
-      "capacity": 5,
-      "photos": [
-        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_L5A0469_easter.tif?croppathe=1_3x2&wid=900",
-        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/23_FRD_RGR_50826_RcRd.tif?croppathe=1_3x2&wid=900",
-        "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_60A0509_RaceRed.tif?croppathe=1_21x9&wid=900"
-      ],
-      "dailyPrice": 81644,
-      "owner": {
-        "name": "Paul Simon",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "A rugged and capable pickup truck.",
-        "Comfortable interior with modern technology.",
-        "Handled the off-road trails with ease.",
-        "great"
-      ]
+    "vehicleFeedback": [
+      "A versatile SUV for all kinds of adventures.",
+      "Smooth ride and good handling.",
+      "Ample cargo space for luggage."
+    ]
+  },
+  {
+    "id": 9,
+    "model": "Ford Ranger",
+    "capacity": 5,
+    "photos": [
+      "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_L5A0469_easter.tif?croppathe=1_3x2&wid=900",
+      "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/23_FRD_RGR_50826_RcRd.tif?croppathe=1_3x2&wid=900",
+      "https://www.ford.com/is/image/content/dam/vdm_ford/live/en_us/ford/nameplate/ranger/2023/collections/dm/22_FRD_RGR_60A0509_RaceRed.tif?croppathe=1_21x9&wid=900"
+    ],
+    "dailyPrice": 81644,
+    "owner": {
+      "name": "Paul Simon",
+      "phone": "+123456789"
     },
-    {
-      "id": 10,
-      "model": "Volkswagen Amarok",
-      "capacity": 5,
-      "photos": [
-        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter_0.jpg?itok=diHeR6tT",
-        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter-tracking.jpg?itok=gP-9Iz6m",
-        "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-side.jpg?itok=gjUFF3Tx"
-      ],
-      "dailyPrice": 81644,
-      "owner": {
-        "name": "Mark John",
-        "phone": "+123456789"
-      },
-      "vehicleFeedback": [
-        "Powerful pickup truck with excellent towing capacity.",
-        "Comfortable seating and user-friendly features.",
-        "Impressive fuel efficiency for a truck.",
-        "Great Car",
-        "nice"
-      ]
+    "vehicleFeedback": [
+      "A rugged and capable pickup truck.",
+      "Comfortable interior with modern technology.",
+      "Handled the off-road trails with ease."
+    ]
+  },
+  {
+    "id": 10,
+    "model": "Volkswagen Amarok",
+    "capacity": 5,
+    "photos": [
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter_0.jpg?itok=diHeR6tT",
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-front-three-quarter-tracking.jpg?itok=gP-9Iz6m",
+      "https://www.autocar.co.uk/sites/autocar.co.uk/files/styles/gallery_slide/public/volkswagen-amarok-side.jpg?itok=gjUFF3Tx"
+    ],
+    "dailyPrice": 81644,
+    "owner": {
+      "name": "Mark John",
+      "phone": "+123456789"
     },
-    {
-      "model": "suzuki",
-      "capacity": "5",
-      "photos": [
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjxZ2rGIDDSVbWxGkof0T16dB9oUeGk6GCA&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvwgQI5518SmR9XU0C5XliMLaaZWrmzdIUqw&usqp=CAU",
-        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-LzedvoGssB_IKM8_YhpCR3ZwYTIPcOYGA&usqp=CAU"
-      ],
-      "dailyPrice": "10000",
-      "owner": {
-        "name": "rukia",
-        "phone": "0722456738"
-      },
-      "vehicleFeedback": [],
-      "id": "8b34c366-4953-4312-9ab6-026955868a1e"
-    }
-  ]
-}
+    "vehicleFeedback": [
+      "Powerful pickup truck with excellent towing capacity.",
+      "Comfortable seating and user-friendly features.",
+      "Impressive fuel efficiency for a truck.",
+      "Great Car"
+    ]
+  }
+]
