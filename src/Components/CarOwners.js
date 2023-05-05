@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { v4 as uuidv4 } from "uuid";
 
-function CarOwners(props) {
+function CarOwners({setCars, cars}) {
   const [formData, setFormData] = useState({
     model: "",
     capacity: "",
@@ -39,7 +39,7 @@ function CarOwners(props) {
 
   async function handleSubmit(event) {
     event.preventDefault();
-    const form = document.querySelector("#form")
+    const form = document.querySelector("#form");
 
     if (formData.model.length > 0) {
       const updatedFormData = {
@@ -53,7 +53,7 @@ function CarOwners(props) {
       };
 
       try {
-        const response = await fetch("http://localhost:4200/vehicles", {
+        const response = await fetch("https://my-json-server-kcbo.onrender.com/vehicles", {
           method: "POST",
           headers: {
             "Content-Type": "application/json",
@@ -62,7 +62,9 @@ function CarOwners(props) {
         });
 
         const data = await response.json();
-        console.log(data);
+        let updatedCars=[data, ...cars];
+        setCars(updatedCars);
+
       } catch (error) {
         console.log("Error submitting car:", error);
       }
@@ -72,7 +74,7 @@ function CarOwners(props) {
       setFormData({
         model: "",
         capacity: "",
-        photos: [],
+        photos: ["", "", ""],
         dailyPrice: "",
         owner: {
           name: "",
@@ -86,9 +88,10 @@ function CarOwners(props) {
     }
   }
 
+
   const handleSave = async () => {
     try {
-      await fetch(`http://localhost:4200/vehicles/${editingId}`, {
+      await fetch(`https://my-json-server-kcbo.onrender.com/vehicles/${editingId}`, {
         method: "PATCH",
         headers: {
           "Content-Type": "application/json",
@@ -121,7 +124,7 @@ function CarOwners(props) {
   };
 
   const submittedRows = submittedData.map((data) => (
-    <tr key={data.id}>
+    <tr key={uuidv4()}>
       <td>{data.model}</td>
       <td>{data.capacity}</td>
       <td>{data.dailyPrice}</td>
@@ -146,7 +149,6 @@ function CarOwners(props) {
     setFormData((prevFormData) => {
       const updatedPhotos = [...prevFormData.photos];
       updatedPhotos[index] = value;
-      console.log(updatedPhotos)
       return {
         ...prevFormData,
         photos: updatedPhotos,
@@ -156,7 +158,7 @@ function CarOwners(props) {
 
   const handleDelete = async (id) => {
     try {
-      await fetch(`http://localhost:4200/vehicles/${id}`, {
+      await fetch(`https://my-json-server-kcbo.onrender.com/vehicles/${id}`, {
         method: "DELETE",
       });
 
@@ -176,100 +178,115 @@ function CarOwners(props) {
   return (
     <div>
     <div id="addYourRide">
-      <form onSubmit={handleSubmit} className="form" id="form">
-        <div className="mb-3">
-          <input
-            required
-            type="text"
-            className="form-control"
-            onChange={handleChange}
-            value={formData.model}
-            name="model"
-            placeholder="Model"
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            required
-            type="number"
-            className="form-control"
-            onChange={handleChange}
-            value={formData.capacity}
-            name="capacity"
-            placeholder="Capacity"
-          />
-        </div>
+        <form onSubmit={handleSubmit} className="form" id="form">
           <div className="mb-3">
+            <label htmlFor="model">Model:</label>
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={handleChange}
+              value={formData.model}
+              name="model"
+              id="model"
+              placeholder="Model"
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="capacity">Capacity:</label>
+            <input
+              required
+              type="number"
+              className="form-control"
+              onChange={handleChange}
+              value={formData.capacity}
+              name="capacity"
+              id="capacity"
+              placeholder="Capacity"
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="photo1">Photo Link:</label>
             <input
               required
               type="text"
               className="form-control"
               onChange={(e) => handlePhotoChange(e, 0)}
               value={formData.photos[0]}
-              placeholder="Photo 1"
+              id="photo1"
+              placeholder="Photo Link:"
             />
           </div>
 
           <div className="mb-3">
+            <label htmlFor="photo2">Photo Link:</label>
             <input
               required
               type="text"
               className="form-control"
               onChange={(e) => handlePhotoChange(e, 1)}
               value={formData.photos[1]}
-              placeholder="Photo 2"
+              id="photo2"
+              placeholder="Photo Link:"
             />
           </div>
 
           <div className="mb-3">
+            <label htmlFor="photo3">Photo Link:</label>
             <input
               required
               type="text"
               className="form-control"
               onChange={(e) => handlePhotoChange(e, 2)}
               value={formData.photos[2]}
-              placeholder="Photo 3"
+              id="photo3"
+              placeholder="Photo Link:"
             />
           </div>
 
-        <div className="mb-3">
-          <input
-            required
-            type="text"
-            className="form-control"
-            onChange={handleChange}
-            value={formData.dailyPrice}
-            name="dailyPrice"
-            placeholder="Daily Price"
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            required
-            type="text"
-            className="form-control"
-            onChange={handleChange}
-            value={formData.owner.name}
-            name="owner.name"
-            placeholder="Owner Name"
-          />
-        </div>
-        <div className="mb-3">
-          <input
-            required
-            type="text"
-            className="form-control"
-            onChange={handleChange}
-            value={formData.owner.phone}
-            name="owner.phone"
-            placeholder="Owner Phone"
-          />
-        </div>
+          <div className="mb-3">
+            <label htmlFor="dailyPrice">Daily Price:</label>
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={handleChange}
+              value={formData.dailyPrice}
+              name="dailyPrice"
+              id="dailyPrice"
+              placeholder="Daily Price"
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="ownerName">Owner Name:</label>
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={handleChange}
+              value={formData.owner.name}
+              name="owner.name"
+              id="ownerName"
+              placeholder="Owner Name"
+            />
+          </div>
+          <div className="mb-3">
+            <label htmlFor="ownerPhone">Owner Phone:</label>
+            <input
+              required
+              type="text"
+              className="form-control"
+              onChange={handleChange}
+              value={formData.owner.phone}
+              name="owner.phone"
+              id="ownerPhone"
+              placeholder="Owner Phone"
+            />
+          </div>
           <button type="submit" className="btn btn-primary">
             {editingId ? "Save" : "Submit"}
           </button>
-      </form>
-
+        </form>
       {errors.length > 0 &&
         errors.map((error, index) => (
           <p key={index} style={{ color: "red" }}>
