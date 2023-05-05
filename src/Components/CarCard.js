@@ -35,7 +35,7 @@ function CarCard({ vehicle }) {
             vehicleFeedback: updatedFeedback,
         };
 
-        fetch(`http://localhost:4200/vehicles/${vehicle.id}`, {
+        fetch(`https://my-json-server-kcbo.onrender.com/vehicles/${vehicle.id}`, {
             method: "PATCH",
             headers: {
                 "Content-Type": "application/json",
@@ -51,7 +51,6 @@ function CarCard({ vehicle }) {
             });
         setComment('');
     };
-
 
     return (
         <div className="carCardContainer">
@@ -75,9 +74,13 @@ function CarCard({ vehicle }) {
 
                 <div className="carCardFeedback">
                     <h4>Vehicle Feedback:</h4>
-                    {updatedFeedback.map((feedback, index) => (
-                        <p key={index}>{feedback}</p>
-                    ))}
+                    {updatedFeedback && updatedFeedback.length > 1 && (
+                        <div className="feedback-container">
+                            {updatedFeedback.map((feedback, index) => (
+                                <p key={index}>{feedback}</p>
+                            ))}
+                        </div>
+                    )}
                     <button className="btn btn-primary" onClick={handleBookNow}>Book Now</button>
                     {showOwnerDetails && (
                         <div className="carCardOwner">
@@ -88,11 +91,14 @@ function CarCard({ vehicle }) {
                     )}
                     {showOwnerDetails && (
                         <div className="carCardCommentSection">
+                            <label htmlFor="comment">Add Comment:</label>
                             <input
+                                required
                                 className="mb-3"
                                 type="text"
                                 value={comment}
                                 onChange={handleCommentChange}
+                                id="comment"
                                 placeholder="Add your comment..."
                             />
                             <button onClick={handleSubmitComment} className="btn btn-primary">Add Comment</button>
@@ -103,5 +109,4 @@ function CarCard({ vehicle }) {
         </div>
     );
 }
-
 export default CarCard;

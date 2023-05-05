@@ -10,14 +10,21 @@ This is a web application that allows a customer to hire a vehicle by linking th
 
 ### Geting Started /Setup
  Installation:
- 1. Use the netlify live link
+1. Use the netlify live link
+  ```sh
+  https://soundmoney254.github.io/Adventure-Tours-Car-Hire/
+  ```
 
- 2.Clone the repository.
+2. Clone the repo
+```sh
+https://github.com/Soundmoney254/Adventure-Tours-Car-Hire
+ ```
 
  3. Download the code files form the repository.
  4. Open the files on your code editor.
  5. Run "npm start" inside the app's root directory.
  6. The live server will launch the browser window with the app.
+ 7. Alternatively use the github live link above.
 
 
  #### Features
@@ -40,9 +47,11 @@ This is a web application that allows a customer to hire a vehicle by linking th
 
 
 ### License and copyright
- The code is released under the general Public License- GNU
-You have complete permission to use, modify and contribute to the project.
-Copyright  and license notices must be preserved.
+The code in this project is licensed under the terms of the General Public License (GPL-3.0).
+
+You are granted permission to use, modify, and contribute to the project under the conditions outlined in the GPL-3.0 license.
+
+It is important to preserve and include the copyright and license notices in all copies and distributions of the project.
 
 ## Author
 This project was created by Samuel Mbugua and Rukia Sharif.

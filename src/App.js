@@ -15,7 +15,7 @@ function App() {
 
   async function fetchCars() {
     try {
-      const response = await fetch('http://localhost:4200/vehicles');
+      const response = await fetch('https://my-json-server-kcbo.onrender.com/vehicles');
       const data = await response.json();
       setCars(data);
     } catch (error) {
@@ -23,19 +23,29 @@ function App() {
     }
   }
 
+  const basename = '/Adventure-Tours-Car-Hire';
+
   return (
-    <Router>
+    <Router basename={basename}>
       <div className="App">
         <h1>ADVENTURE TOURS CAR HIRE</h1>
         <nav>
-          <NavLink to="/" className="nav-link"><h2>Homepage</h2></NavLink>
-          <NavLink to="/compare-cars" className="nav-link"><h2>Find Ride</h2></NavLink>
-          <NavLink to="/car-owners" className="nav-link"><h2>Add Ride</h2></NavLink>
-          <NavLink to="/about-us" className="nav-link"><h2>About Us</h2></NavLink>
+          <NavLink to="/" className="nav-link">
+            <h2>Homepage</h2>
+          </NavLink>
+          <NavLink to="/compare-cars" className="nav-link" >
+            <h2>Find Ride</h2>
+          </NavLink>
+          <NavLink to="/car-owners" className="nav-link" >
+            <h2>Add Ride</h2>
+          </NavLink>
+          <NavLink to="/about-us" className="nav-link" >
+            <h2>About Us</h2>
+          </NavLink>
         </nav>
         <Routes>
-          <Route exact path="/" element={<HomePage />} />
-          <Route path="/car-owners" element={<CarOwners />} />
+          <Route path="/" element={<HomePage />} />
+          <Route path="/car-owners" element={<CarOwners cars={cars} setCars={setCars}/>} />
           <Route path="/compare-cars" element={<CompareCars cars={cars} />} />
           <Route path="/about-us" element={<About />} />
         </Routes>
