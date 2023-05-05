@@ -113,3 +113,27 @@ input{
   border-radius: 5px;
   border: solid 2px lightgray;
 }
+
+#sortButton{
+  margin: 10px;
+}
+
+#showCars{
+  align-items: center;
+  text-align: center;
+}
+
+select {
+  margin: 0 auto;
+}
+
+label{
+  color: blue;
+  font-size: large;
+}
+
+.activeLink {
+  font-weight: bold;
+  color: red;
+  text-decoration: underline;
+}
