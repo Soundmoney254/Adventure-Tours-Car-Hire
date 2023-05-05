@@ -17,7 +17,8 @@
       "vehicleFeedback": [
         "Excellent vehicle for off-roading!",
         "Spacious and comfortable for long trips.",
-        "Handled the rough terrains like a champ."
+        "Handled the rough terrains like a champ.",
+        "good"
       ]
     },
     {
@@ -179,7 +180,8 @@
       "vehicleFeedback": [
         "A rugged and capable pickup truck.",
         "Comfortable interior with modern technology.",
-        "Handled the off-road trails with ease."
+        "Handled the off-road trails with ease.",
+        "great"
       ]
     },
     {
@@ -200,8 +202,25 @@
         "Powerful pickup truck with excellent towing capacity.",
         "Comfortable seating and user-friendly features.",
         "Impressive fuel efficiency for a truck.",
-        "Great Car"
+        "Great Car",
+        "nice"
       ]
+    },
+    {
+      "model": "suzuki",
+      "capacity": "5",
+      "photos": [
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTNjxZ2rGIDDSVbWxGkof0T16dB9oUeGk6GCA&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRvwgQI5518SmR9XU0C5XliMLaaZWrmzdIUqw&usqp=CAU",
+        "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTG-LzedvoGssB_IKM8_YhpCR3ZwYTIPcOYGA&usqp=CAU"
+      ],
+      "dailyPrice": "10000",
+      "owner": {
+        "name": "rukia",
+        "phone": "0722456738"
+      },
+      "vehicleFeedback": [],
+      "id": "8b34c366-4953-4312-9ab6-026955868a1e"
     }
   ]
 }
