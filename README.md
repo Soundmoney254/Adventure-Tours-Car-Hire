@@ -41,9 +41,11 @@ https://github.com/Soundmoney254/Adventure-Tours-Car-Hire
  3. a customer can choose from a list of vehicles which is fetched from the json server.
  4. a customer can also  make booking for the vehicle to be hired.
  5.A customer is able to leave feedback/ comment on the app.
+ 6. A customer is able to filter the cars according to capacity.
+ 
 
 ### Limitaions
-
+The App lacks authentication method- the user log in is not available at the moment.
 
 
 ### License and copyright
